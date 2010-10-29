@@ -1,0 +1,15 @@
+[submodule "deps/client/cell"]
+	path = deps/client/cell
+	url = git://github.com/peterwmwong/cell.git
+[submodule "deps/server/examiner"]
+	path = deps/server/examiner
+	url = git://github.com/peterwmwong/examiner.git
+[submodule "deps/server/express"]
+	path = deps/server/express
+	url = git://github.com/visionmedia/express.git
+[submodule "deps/client/socket.io"]
+	path = deps/client/socket.io
+	url = http://github.com/LearnBoost/Socket.IO.git
+[submodule "deps/server/socket.io-node"]
+	path = deps/server/socket.io-node
+	url = git://github.com/LearnBoost/Socket.IO-node.git

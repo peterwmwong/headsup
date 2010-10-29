@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Heads Up!</title>
+    <link rel="stylesheet/less" href="headsup.less" type="text/css">
+
+    <script src="/jquery/jquery-1.4.3.min.js"></script>
+    <script src="/cell/cell.js"></script>
+    <script src="/sio/socket.io.js"></script>
+
+    <!-- <script src="/client/refresh-client-wdeps.js"></script> 
+    <script type="text/javascript">//<![CDATA[
+        refresh();
+    //]]></script> -->
+    
+    <script type="text/javascript">//<![CDATA[
+
+    var socket = new io.Socket('127.0.0.1',{port:8080});
+    socket.connect();
+    socket.on('connect', function(){ console.log('connected'); });
+    socket.on('message', function(msg){ console.log(msg); });
+    socket.on('disconnect', function(){ console.log('disconnected'); });
+
+    console.log('try connect');
+
+    /*cell.configure({
+       resourceBasePaths: {
+          all:'/cells/'
+       }
+    });
+    
+    cell('App',function(App){
+       App.render( 
+          document.querySelector('body'),
+          false,
+          {}
+       );
+    });*/
+    //]]></script>
+</head>
+<body></body>
+</html>

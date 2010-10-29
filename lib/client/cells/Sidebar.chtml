@@ -1,0 +1,3 @@
+<div id="machinesTab" class="sidebarTab selected">Machines</div>
+<div id="problemsTab" class="sidebarTab">Problems</div>
+{{>MachineSidebar "id":"machineSidebar"}}

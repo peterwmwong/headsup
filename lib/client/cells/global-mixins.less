@@ -1,0 +1,73 @@
+.m-border-radius( @tl:     5px,
+                  @tr:     5px,
+                  @br:     5px,
+                  @bl:     5px) {
+   -moz-border-radius:    @tl @tr @br @bl;
+   -webkit-border-radius: @tl @tr @br @bl;
+   border-radius:         @tl @tr @br @bl;
+}
+
+.m-box-shadow( @color: #000,
+               @hoff:   0px, 
+               @voff:   0px, 
+               @blur:  10px) {
+   -webkit-box-shadow: @hoff @voff @blur @color;
+   box-shadow:         @hoff @voff @blur @color;
+}
+
+.m-bg-linear-gradient(@bgcolor, @c1, @c2){
+   background-color: @bgcolor;
+   background: -moz-linear-gradient(top, @c1,@c2);
+   background: -webkit-gradient(linear, left top, left bottom, color-stop(0, @c1), to(@c2));
+}
+
+.m-text-shadow(@color:#000, @hoff:-1px, @voff: 1px, @size:2px){
+	text-shadow: @color @hoff @voff @size;
+}
+
+.m-transition-property(@prop){
+   -webkit-transition-property: @prop;   
+   -moz-transition-property: @prop;   
+   -o-transition-property: @prop;   
+   transition-property: @prop;   
+}
+
+.m-transition-duration(@dur){
+   -webkit-transition-duration: @dur;
+   -moz-transition-duration: @dur;   
+   -o-transition-duration: @dur;   
+   transition-duration: @dur;
+}
+
+.m-transition-timing-function(@func){
+   -webkit-transition-timing-function: @func;
+   -moz-transition-timing-function: @func;   
+   -o-transition-timing-function: @func;   
+   transition-timing-function: @func;
+}
+
+
+.m-transition-property2(@prop1, @prop2){
+   -webkit-transition-property: @prop1, @prop2;   
+   -moz-transition-property: @prop1, @prop2;   
+   -o-transition-property: @prop1, @prop2;   
+   transition-property: @prop1, @prop2;   
+}
+
+.m-transition-duration2(@dur1, @dur2){
+   -webkit-transition-duration: @dur1, @dur2;
+   -moz-transition-duration: @dur1, @dur2;   
+   -o-transition-duration: @dur1, @dur2;   
+   transition-duration: @dur1, @dur2;
+}
+
+.m-transition-timing-function2(@func1, @func2){
+   -webkit-transition-timing-function: @func1, @func2;
+   -moz-transition-timing-function: @func1, @func2;   
+   -o-transition-timing-function: @func1, @func2;   
+   transition-timing-function: @func1, @func2;
+}
+
+a {
+   color: #668EBF;   
+}
