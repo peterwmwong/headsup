@@ -1,0 +1,7 @@
+<nobr>
+<span class='category'>{{category}}</span>
+<span class='clientInfo'>{{clientInfo}}</span>
+<span class='codeSource'>{{codeSource}}</span>
+<span class='date'>{{date}}</span>
+<span class='msg'>{{msg}}</span>
+</nobr>
