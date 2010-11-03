@@ -2,8 +2,6 @@
 @import 'global-mixins.less';
 
 .Content{
-   #Container {
-      overflow: scroll;
-      height: 100%;
-   }
+   overflow: scroll;
+   height: 100%;
 }

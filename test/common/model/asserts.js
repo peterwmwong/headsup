@@ -12,6 +12,8 @@ const assertClientInfo = function(a,act,e){
 };
 
 const assertLogEntry = function(a,act,e){
+   a.equal(act.server,e.server);
+
    const d = act.date
    a.ok(d instanceof Date);
    a.equal(d.getFullYear(),e.fullYear);

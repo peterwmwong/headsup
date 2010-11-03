@@ -1,7 +1,9 @@
 <nobr>
-<span class='category'>{{category}}</span>
-<span class='clientInfo'>{{clientInfo}}</span>
-<span class='codeSource'>{{codeSource}}</span>
-<span class='date'>{{date}}</span>
-<span class='msg'>{{msg}}</span>
+   <div class='date'>{{date}}</div>
+   <div class='category'>{{category}}</div>
+   {{#clientInfo}}
+   <div class='clientInfo'>{{clientInfo}}</div>
+   {{/clientInfo}}
+   <div class='codeSource'>{{codeSource}}</div>
+   <div class='msg'>{{msg}}</div>
 </nobr>

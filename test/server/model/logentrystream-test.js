@@ -40,7 +40,7 @@ const range = function(s,e){
                fileContents: r.reduce(function(r,v){
                                           
                      var c = (expects[v] = (!ctx)
-                        ? {
+                        ? {server: 'server1',
                            fullYear: 2010, month: 10, date: 12,
                            hours: 8, minutes: 41, seconds: 30+v,
                            category:   'INFO'+v,
@@ -53,7 +53,7 @@ const range = function(s,e){
                            },
                            msg:'Initialization processed in '+(420+v)+' ms'
                         }
-                        : {
+                        : {server: 'server1',
                            fullYear: ctx.fullYear, month: ctx.month, date: ctx.date,
                            hours: ctx.hours, minutes: ctx.minute, seconds: ctx.seconds,
                            category:   ctx.category,
@@ -76,7 +76,7 @@ const range = function(s,e){
 
 examine('LogEntryStream',{
    'errors on non-existent log file':function(a){
-      LogEntryStream.create('ultraBogusPaThOfDOOOM',null,function(e,lestream){
+      LogEntryStream.create('server1','ultraBogusPaThOfDOOOM',null,function(e,lestream){
          a.ok(e);
          a.ok(!lestream);
          a.done();
@@ -90,7 +90,7 @@ examine('LogEntryStream',{
 
       writeToFile(f,contents.fileContents);
       
-      lesToClose.push(LogEntryStream.create(f,null,function(e,leis){
+      lesToClose.push(LogEntryStream.create('server1',f,null,function(e,leis){
          a.ok(!e && leis && leis instanceof LogEntryStream);
          
          leis.onError(function(e){
@@ -122,7 +122,7 @@ examine('LogEntryStream',{
 
       writeToFile(f,contents.fileContents);    
  
-      lesToClose.push(LogEntryStream.create(f,null,function(e,leis){
+      lesToClose.push(LogEntryStream.create('server1',f,null,function(e,leis){
          a.ok(!e && leis && leis instanceof LogEntryStream);
          leis.onError(a.ok.bind(a,false));
          leis.onLogEntries(function(les){
@@ -156,7 +156,7 @@ examine('LogEntryStream',{
 
       writeToFile(f,contents.fileContents);  
       
-      lesToClose.push(LogEntryStream.create(f,null,function(e,leis){
+      lesToClose.push(LogEntryStream.create('server1',f,null,function(e,leis){
          a.ok(!e && leis && leis instanceof LogEntryStream);
          leis.onError(a.ok.bind(a,false));
          leis.onLogEntries(function(les){

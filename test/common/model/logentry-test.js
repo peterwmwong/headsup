@@ -14,6 +14,7 @@ examine('LogEntry.parse()',{
       a.ok(r.length,1);
 
       const le = r[0];
+      a.equal(le.server,null);
       a.equal(le.date,null);
       a.equal(le.category,null);
       a.equal(le.codeSource,null);
@@ -24,13 +25,14 @@ examine('LogEntry.parse()',{
 
   'message only Log Entry uses parse context': function(a){
       const msg = '123 1241 sdflksd 87324 sk !@%!@%',
-            ctx = {date: Date.now(), category:'cat', codeSource:'codesrc', clientInfo: 'ci'},
+            ctx = {server: 'server1', date: Date.now(), category:'cat', codeSource:'codesrc', clientInfo: 'ci'},
             r   = LogEntry.parse(msg,ctx);
 
       a.ok(r !== null && r instanceof Array);
       a.ok(r.length,1);
       
       const le = r[0];
+      a.equal(le.server,'server1');
       a.equal(le.date,ctx.date);
       a.equal(le.category,ctx.category);
       a.equal(le.codeSource,ctx.codeSource);
@@ -64,13 +66,14 @@ examine('LogEntry.parse()',{
       a.done();
    },
 
-  'LogEntry ignores parse context': function(a){
-      const ctx = {date: Date.now(), category:'cat', codeSource:'codesrc', clientInfo: 'ci'},
-            r   = LogEntry.parse('2010-10-12 08:41:31\tINFO\tCatalina\t(127.0.0.1 ID:2 siteID:10 userID:101)\t Initialization processed in 422 ms');
+  'LogEntry ignores parse context, except server': function(a){
+      const ctx = {server: 'server2', date: Date.now(), category:'cat', codeSource:'codesrc', clientInfo: 'ci'},
+            r   = LogEntry.parse('2010-10-12 08:41:31\tINFO\tCatalina\t(127.0.0.1 ID:2 siteID:10 userID:101)\t Initialization processed in 422 ms',ctx);
       a.ok(r !== null && r instanceof Array);
       a.ok(r.length === 1);
       
       assertLogEntry(a,r[0],{
+         server: 'server2',
          fullYear: 2010,
          month:      10,
          date:       12,

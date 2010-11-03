@@ -2,7 +2,29 @@
 @import 'global-mixins.less';
 
 .LogEntry {
+   @cRegular: @text-color;
+   @cSoft: @text-color - #555;
+   @cWarn: #EDEB6B;
+   @cError: #ED6B6B;
+
    clear: both;
    font-family: monospace;
    font-size: 12px;
+   color: @cSoft;
+   div{
+      display: inline-block;
+      overflow: hidden;
+   }
+   .category {
+      width: 28px;
+   }
+   .server {
+      width: 50px;
+   }
+   .codeSource {
+      width: 100px;
+   }
+   .msg {
+      color: @cRegular;
+   }
 }
