@@ -1,9 +1,16 @@
 <nobr>
+   <div class='{{serverStyleClass}}'>
+      {{server}}
+   </div>
    <div class='date'>{{date}}</div>
    <div class='category'>{{category}}</div>
    {{#clientInfo}}
-   <div class='clientInfo'>{{clientInfo}}</div>
+   <div class='clientInfo'>
+      {{ip}}
+      {{#siteid}}site:{{siteid}}{{/siteid}}
+      {{#userid}}&nbsp;user:{{userid}}{{/userid}}
+   </div>
    {{/clientInfo}}
    <div class='codeSource'>{{codeSource}}</div>
-   <div class='msg'>{{msg}}</div>
+   <div class='{{category}}'>{{msg}}</div>
 </nobr>

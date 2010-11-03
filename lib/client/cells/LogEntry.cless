@@ -15,16 +15,24 @@
       display: inline-block;
       overflow: hidden;
    }
-   .category {
-      width: 28px;
+   .clientInfo {
+      color: #3784A6;
    }
-   .server {
-      width: 50px;
+   .server, .newServer {
+      color: #37A651;
+      width: 45px;
    }
-   .codeSource {
-      width: 100px;
+   .newServer {
+      font-weight: bold;
    }
    .msg {
       color: @cRegular;
+   }
+
+   .ERROR {
+      color: #F26D6D;
+   }
+   .WARN {
+      color: #F2F06D;
    }
 }
