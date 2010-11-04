@@ -4,4 +4,18 @@
 .Content{
    overflow: scroll;
    height: 100%;
+
+   #lock {
+      position: absolute;
+      right: 0;
+      top: 0;
+      width: 64px;
+      height: 64px;
+      visibility: hidden;
+
+      &.visible {
+         visibility: visible;
+         opacity: .50;
+      }
+   }
 }

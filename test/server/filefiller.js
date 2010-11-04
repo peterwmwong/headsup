@@ -29,7 +29,7 @@ if(file && typeof file === 'string'){
          f.write(data[curline]+'\n');
          curline = (++curline % data.length);
       }
-   },1000); 
+   },250); 
 
    const handleDeath = function(){
       writealot && clearInterval(writealot);
