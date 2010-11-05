@@ -1,1 +1,7 @@
-<img id='lock' src='/images/lock.png'>
+<div id='indicators'>
+   <img id='lock' src='/images/lock.png'>
+   <div id='refresh'>
+      <div id='text'>Refresh to reconnect</div>
+      <img src='/images/refresh.png'>
+   </div>
+</div>

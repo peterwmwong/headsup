@@ -5,17 +5,57 @@
    overflow: scroll;
    height: 100%;
 
-   #lock {
+   #indicators {
       position: absolute;
       right: 0;
       top: 0;
+      visibility: hidden;
+   }
+
+   #lock {
+      position: absolute;
+      right: 20px;
+      top: 20px;
       width: 64px;
       height: 64px;
       visibility: hidden;
 
       &.visible {
+        visibility: visible;
+        opacity: .75;
+      }
+   }
+
+   #refresh {
+      position: absolute;
+      right: 20px;
+      top: 20px;
+      width: 230px;
+   
+      #text {
+         position: absolute;
+         left: 0px;
+         top: 25px;
+         font-weight: bold;
+         font-height: 24px;
+         color: #FFF;
+      }
+      img {
+         position: absolute;
+         right: 0px;
+         width: 64px;
+         height: 64px;
+      }
+
+      visibility: hidden;
+
+      &.visible {
          visibility: visible;
-         opacity: .50;
+         -webkit-animation-name: PULSATE;
+      	-webkit-animation-duration: .5s;
+      	-webkit-animation-timing-function: linear;
+      	-webkit-animation-iteration-count: infinite;
+         -webkit-animation-direction: alternate;
       }
    }
 }
