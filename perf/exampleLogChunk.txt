@@ -1,0 +1,10 @@
+2010-10-12 15:03:48	INFO 	LuceneWrapper	()	LuceneWrapper.hitRunner.MaxThreads=10
+2010-10-12 15:03:48	INFO 	LuceneWrapper	()	Starting hitRunner - MinThreads: 10 MaxThreads: 10
+2010-10-12 15:03:48	INFO 	LuceneWrapper	()	LuceneWrapper.alternateTermsRunner.MinThreads=1
+2010-10-12 15:03:48	INFO 	LuceneWrapper	()	LuceneWrapper.alternateTermsRunner.MaxThreads=5
+2010-10-12 15:03:48	INFO 	LuceneWrapper	()	LuceneWrapper.alternateTermsRunner.QueueSize=1
+2010-10-12 15:03:48	INFO 	LuceneWrapper	()	Starting alternateTermsRunner - MinThreads: 1 MaxThreads: 5 QueueSize: 1
+2010-10-12 15:03:48	INFO 	DestinyServicesBean	()	Registering Service Z3950Service
+2010-10-12 15:03:48	INFO 	DestinyServicesBean	()	Starting Service Z3950Service
+2010-10-12 15:03:48	INFO 	Z3950Service	()	Starting Z-Client service...
+2010-10-12 15:03:48	INFO 	Z3950Service	()	Starting Z-Server service...

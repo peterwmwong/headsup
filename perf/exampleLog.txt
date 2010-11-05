@@ -1,0 +1,241 @@
+2010-10-12 08:41:30	INFO 	TransactionTimeoutOverride	()	Unable to find file: ..\..\fsc\bin\transactiontimeouts.properties
+2010-10-12 08:41:31	INFO 	Embedded	()	Catalina naming disabled
+2010-10-12 08:41:31	WARN 	Connector	()	Property debug not found on the protocol handler.
+2010-10-12 08:41:31	WARN 	Digester	()	  No rules found matching 'Server/Service/Engine/Host/Logger'.
+2010-10-12 08:41:31	INFO 	AprLifecycleListener	()	The Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: ../lib
+2010-10-12 08:41:31	INFO 	Http11NioProtocol	()	Initializing Coyote HTTP/1.1 on http-0.0.0.0-80
+2010-10-12 08:41:31	INFO 	Http11NioProtocol	()	Initializing Coyote HTTP/1.1 on http-0.0.0.0-443
+2010-10-12 08:41:31	INFO 	AjpProtocol	()	Initializing Coyote AJP/1.3 on ajp-0.0.0.0-8009
+2010-10-12 08:41:31	INFO 	Catalina	()	Initialization processed in 422 ms
+2010-10-12 08:41:31	INFO 	StandardService	()	Starting service jboss.web
+2010-10-12 08:41:31	INFO 	StandardEngine	()	Starting Servlet Engine: JBossWeb/2.0.1.GA
+2010-10-12 08:41:31	INFO 	Catalina	()	Server startup in 36 ms
+2010-10-12 08:41:39	ERROR	STDERR	()	SLF4J: Class path contains multiple SLF4J bindings.
+2010-10-12 08:41:39	ERROR	STDERR	()	SLF4J: Found binding in [jar:file:/D:/deploy/FSC-Destiny/jboss/server/destiny/deploy/destiny.ear/lib/slf4j-log4j12.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+2010-10-12 08:41:39	ERROR	STDERR	()	SLF4J: Found binding in [jar:file:/D:/deploy/FSC-Destiny/jboss/server/destiny/deploy/destiny.ear/lib/slf4j-simple.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+2010-10-12 08:41:39	ERROR	STDERR	()	SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+2010-10-12 08:41:59	INFO 	ThreadTracer	()	ThreadTracer category='DestinyLogger' found.  To enable add system property 'ThreadTracer.DestinyLogger=ON'
+2010-10-12 08:42:05	WARN 	SessionFactoryObjectFactory	()	InitialContext did not implement EventContext
+2010-10-12 08:42:14	INFO 	ActionServlet	()	Loading chain catalog from jar:file:/D:/deploy/FSC-Destiny/jboss/server/destiny/lib/struts-core.jar!/org/apache/struts/chain/chain-config.xml
+2010-10-12 08:42:18	INFO 	deployer	()	Configuring EJB3 method synchronization from file 'D:\deploy\FSC-Destiny\fsc\bin\ejb3-synchronizations.xml'
+2010-10-12 08:42:18	INFO 	deployer	()	struts-menu initialization successfull
+2010-10-12 08:42:19	INFO 	deployer	()	Setting SQL Server memory.
+2010-10-12 08:42:19	INFO 	deployer	()	SQL Server min memory set to 1024
+2010-10-12 08:42:19	INFO 	deployer	()	SQL Server max memory set to 1024
+2010-10-12 08:42:19	INFO 	deployer	()	Configuring Jasper Reports
+2010-10-12 08:42:20	INFO 	JobConcurrency	()	Starting buildJobMatrix for context = destiny
+2010-10-12 08:42:21	INFO 	JobConcurrency	()	Ending buildJobMatrix for context = destiny
+2010-10-12 08:42:21	INFO 	JobConcurrency	()	Starting buildJobMatrix for context = destiny
+2010-10-12 08:42:21	INFO 	JobConcurrency	()	Ending buildJobMatrix for context = destiny
+2010-10-12 08:42:21	INFO 	deployer	()	Registering Destiny Services
+2010-10-12 08:42:21	INFO 	DestinyServicesBean	()	Registering Destiny Services
+2010-10-12 08:42:21	INFO 	DestinyServicesBean	()	Removing leftover JasperReports cache files...
+2010-10-12 08:42:21	INFO 	ChurchillService	()	Starting Churchill Job Manager
+2010-10-12 08:42:22	INFO 	JobLauncherBase	()	Job Launcher Started
+2010-10-12 08:42:22	INFO 	ChurchillService	()	Churchill Job Manager started
+2010-10-12 08:42:22	INFO 	JobMonitor	()	Starting JobMonitor(Context: com.follett.fsc.common.consortium.DistrictContext - Context=destiny)...
+2010-10-12 08:42:22	INFO 	LuceneWrapper	()	Lucene.MaxCrissCrossSearchSize=2147483647
+2010-10-12 08:42:22	INFO 	LuceneWrapper	()	Lucene.MaxCrissCrossDurationMillis=5000
+2010-10-12 08:42:22	INFO 	LuceneWrapper	()	MAX_LUCENE_BOOLEAN_CLAUSE_COUNT=5000
+2010-10-12 08:42:22	INFO 	LuceneWrapper	()	LuceneWrapper.minimumFuzzyTermsForShortCut=10
+2010-10-12 08:42:22	INFO 	LuceneWrapper	()	LuceneWrapper.minimumLevenshteinForFuzzyShortCut=0.8
+2010-10-12 08:42:22	INFO 	LuceneWrapper	()	MAX_LUCENE_SEARCH_THREADS=25
+2010-10-12 08:42:22	INFO 	LuceneWrapper	()	PARAM_LUCENE_CACHED_BLOCKING_WAIT_MILLIS=120000
+2010-10-12 08:42:22	INFO 	LuceneWrapper	()	MAX_LUCENE_CACHED_QUERIES=50
+2010-10-12 08:42:22	INFO 	LuceneWrapper	()	LUCENE_CACHED_ELAPSED_MILLIS=30000
+2010-10-12 08:42:22	INFO 	LuceneWrapper	()	MAX_LUCENE_QUEUED_THREADS=-1
+2010-10-12 08:42:22	INFO 	LuceneWrapper	()	MAX_LUCENE_QUEUED_THREAD_WAIT_MILLIS=30000
+2010-10-12 08:42:22	INFO 	LuceneWrapper	()	Lucene ThreadGovernor installed in lucene MaxLuceneSearchThreads=25 MaxLuceneQueuedThreads=-1
+2010-10-12 08:42:22	INFO 	LuceneWrapper	()	Lucene Caching initiated with MaxLuceneCachedQueries=50, LuceneCachedElapsedMillis=30000
+2010-10-12 08:42:22	INFO 	LuceneWrapper	()	Deleting any Lucene Lock files in Temp dir: ../../jvmtemp/
+2010-10-12 08:42:22	INFO 	LuceneWrapper	()	Starting lucene context for destiny. Index optimization is OFF.
+2010-10-12 08:42:22	INFO 	LuceneWrapper	()	PROPERTY_RAM_UPDATE_INTERVAL_MILLIS=1200000
+2010-10-12 08:42:22	INFO 	LuceneWrapper	()	LuceneWrapper.hitRunner.MinThreads=10
+2010-10-12 08:42:22	INFO 	LuceneWrapper	()	LuceneWrapper.hitRunner.MaxThreads=10
+2010-10-12 08:42:22	INFO 	LuceneWrapper	()	Starting hitRunner - MinThreads: 10 MaxThreads: 10
+2010-10-12 08:42:22	INFO 	LuceneWrapper	()	LuceneWrapper.alternateTermsRunner.MinThreads=1
+2010-10-12 08:42:22	INFO 	LuceneWrapper	()	LuceneWrapper.alternateTermsRunner.MaxThreads=5
+2010-10-12 08:42:22	INFO 	LuceneWrapper	()	LuceneWrapper.alternateTermsRunner.QueueSize=1
+2010-10-12 08:42:22	INFO 	LuceneWrapper	()	Starting alternateTermsRunner - MinThreads: 1 MaxThreads: 5 QueueSize: 1
+2010-10-12 08:42:22	INFO 	DestinyServicesBean	()	Registering Service Z3950Service
+2010-10-12 08:42:22	INFO 	DestinyServicesBean	()	Starting Service Z3950Service
+2010-10-12 08:42:22	INFO 	Z3950Service	()	Starting Z-Client service...
+2010-10-12 08:42:22	INFO 	Z3950Service	()	Starting Z-Server service...
+2010-10-12 08:42:22	INFO 	Z3950Service	()	Server IP address not specified. Using the default.
+2010-10-12 08:42:22	INFO 	Z3950Service	()	Server IP address is 172.16.18.60
+2010-10-12 08:42:22	INFO 	Z3950Service	()	Unable to parse server port. Using the default.
+2010-10-12 08:42:22	INFO 	Z3950Service	()	Server port is 210
+2010-10-12 08:42:22	INFO 	Z3950Service	()	Unable to parse maxsessions. Using the default.
+2010-10-12 08:42:22	INFO 	Z3950Service	()	Maximum number of sessions is 50
+2010-10-12 08:42:22	INFO 	Z3950Service	()	Unable to find database name. Using the default.
+2010-10-12 08:42:22	INFO 	Z3950Service	()	Database name is Main
+2010-10-12 08:42:22	INFO 	Z3950Service	()	Unable to find collection name. Using the default.
+2010-10-12 08:42:22	INFO 	Z3950Service	()	Collection name is Library Collection
+2010-10-12 08:42:22	INFO 	Z3950Service	()	Anonymous access enabled.
+2010-10-12 08:42:22	INFO 	DestinyServicesBean	()	Service Z3950Service Started
+2010-10-12 08:42:22	INFO 	DestinyServicesBean	()	Registering Service PerfMon4JService
+2010-10-12 08:42:22	INFO 	DestinyServicesBean	()	Starting Service PerfMon4JService
+2010-10-12 08:42:22	INFO 	STDOUT	()	Loading configuration from: perfmonconfig.xml
+2010-10-12 08:42:23	INFO 	DestinyServicesBean	()	Service PerfMon4JService Started
+2010-10-12 08:42:23	INFO 	DestinyServicesBean	()	Registering Service SIFService
+2010-10-12 08:42:23	INFO 	DestinyServicesBean	()	Starting Service SIFService
+2010-10-12 08:42:23	INFO 	DestinyServicesBean	()	Service SIFService Started
+2010-10-12 08:42:23	INFO 	DestinyServicesBean	()	Registering Service DebuggingService
+2010-10-12 08:42:23	INFO 	deployer	()	
+
+
+* * * * * * * * * * * * * * * * *
+* * * * * * * * * * * * * * * * *
+Destiny Resource Manager
+
+9.9.0.224 (ITR224) (10/12/2010)
+Server has been up since 10/12/2010 8:42 AM
+
+Virtual machine: Java HotSpot(TM) 64-Bit Server VM
+Vendor: Sun Microsystems Inc.
+Version: 11.0-b15
+Application Server Specs: Windows XP Professional Edition for x64 Systems Service Pack 2 - RAM: 4 GB
+Application Server Time: 2010-10-12 08:42:23.0
+
+Microsoft SQL Server 2005 - 9.00.3080.00 (X64) 
+	Sep  6 2009 09:15:46 
+	Copyright (c) 1988-2005 Microsoft Corporation
+	Developer Edition (64-bit) on Windows NT 5.2 (Build 3790: Service Pack 2)
+
+Compatibility level: 90 (SQL Server Version 2005)
+JDBC driver: jTDS Type 4 JDBC Driver for MS SQL Server and Sybase - Version: 1.2
+JDBC URL: jdbc:jtds:sqlserver://127.0.0.1:1433/destiny;instance=;appName=Destiny
+SQL Server Date: 2010-10-12 08:42:23.373
+* * * * * * * * * * * * * * * * *
+* * * * * * * * * * * * * * * * *
+
+2010-10-12 08:42:23	INFO 	deployer	()	Done registering services.
+2010-10-12 08:42:24	INFO 	deployer	()	Detected internal FSC server
+2010-10-12 08:42:24	WARN 	MagicVORepositoryClassLoader	()	Removing directory d:\deploy\FSC-Destiny\jboss\bin\..\..\jvmtemp\tempMagicVORepoDir.  Server may have been improperly shutdown
+2010-10-12 08:42:24	INFO 	deployer	()	Initializing Destiny Locale
+2010-10-12 08:42:24	INFO 	deployer	()	Footer Server Time Format: M/d/yyyy h:mm a z
+2010-10-12 08:42:24	INFO 	deployer	()	Setting locale: Short Date Format is 'M/d/yyyy'
+2010-10-12 08:42:24	INFO 	deployer	()	Setting locale: Destiny Locale is 'en,US, '
+2010-10-12 08:42:24	INFO 	deployer	()	Finished initalizing Destiny components
+2010-10-12 08:42:24	INFO 	Http11NioProtocol	()	Starting Coyote HTTP/1.1 on http-0.0.0.0-80
+2010-10-12 08:42:24	INFO 	Http11NioProtocol	()	Starting Coyote HTTP/1.1 on http-0.0.0.0-443
+2010-10-12 08:42:24	INFO 	AjpProtocol	()	Starting Coyote AJP/1.3 on ajp-0.0.0.0-8009
+2010-10-12 08:42:24	INFO 	Server	()	JBoss (MX MicroKernel) [4.2.3.GA (build: SVNTag=JBoss_4_2_3_GA date=201002081550)] Started in 1m:22s:218ms
+2010-10-12 08:42:52	INFO 	WorkloadMonitor	( Joblet: com.follett.fsc.destiny.session.common.churchill.SyncFollettEBooksJoblet)	maxLoad calculated = 50
+2010-10-12 08:44:22	INFO 	JobWrapper	(Job: Digital Media Providers Update (DigitalContentProvidersUpdateJob) - Pending Start - JobID: 100 - SiteID: 0 - UserID: null )	Invoking run on job: Digital Media Providers Update (DigitalContentProvidersUpdateJob) - Running - JobID: 100 - SiteID: 0 - UserID: null
+2010-10-12 08:44:23	INFO 	JobWrapper	(Job: Digital Media Providers Update (DigitalContentProvidersUpdateJob) - Pending Start - JobID: 100 - SiteID: 0 - UserID: null )	Done running job: Digital Media Providers Update (DigitalContentProvidersUpdateJob) - Complete - JobID: 100 - SiteID: 0 - UserID: null
+2010-10-12 08:44:23	INFO 	JobWrapper	(Job: District-cataloged Digital Resources (DigitalContentProvidersCustomJob) - Pending Start - JobID: 101 - SiteID: 0 - UserID: null )	Invoking run on job: District-cataloged Digital Resources (DigitalContentProvidersCustomJob) - Running - JobID: 101 - SiteID: 0 - UserID: null
+2010-10-12 08:44:23	INFO 	JobWrapper	(Job: District-cataloged Digital Resources (DigitalContentProvidersCustomJob) - Pending Start - JobID: 101 - SiteID: 0 - UserID: null )	Done running job: District-cataloged Digital Resources (DigitalContentProvidersCustomJob) - Complete - JobID: 101 - SiteID: 0 - UserID: null
+2010-10-12 08:47:23	INFO 	TextAppender	()	
+********************************************************************************
+Churchill Job Manager
+08:42:23:032 -> 08:47:23:048
+ runningJobCount.......... 0
+ runningJobletCount....... 0
+ activeWrapperThreads..... 1
+ maximumJobCount.......... 30
+ serverActivityLevel...... 0.000
+ runningJobNames.......... No running jobs
+ runningJobletNames....... No running joblets
+********************************************************************************
+2010-10-12 08:52:23	INFO 	TextAppender	()	
+********************************************************************************
+Churchill Job Manager
+08:47:23:048 -> 08:52:23:063
+ runningJobCount.......... 0
+ runningJobletCount....... 0
+ activeWrapperThreads..... 1
+ maximumJobCount.......... 30
+ serverActivityLevel...... 0.000
+ runningJobNames.......... No running jobs
+ runningJobletNames....... No running joblets
+********************************************************************************
+2010-10-12 08:53:22	INFO 	JobLauncher	()	RAM UPDATE: 	free Memory: 835011272	total Memory: 1056309248
+2010-10-12 08:57:23	INFO 	TextAppender	()	
+********************************************************************************
+Churchill Job Manager
+08:52:23:063 -> 08:57:23:079
+ runningJobCount.......... 0
+ runningJobletCount....... 0
+ activeWrapperThreads..... 1
+ maximumJobCount.......... 30
+ serverActivityLevel...... 0.000
+ runningJobNames.......... No running jobs
+ runningJobletNames....... No running joblets
+********************************************************************************
+2010-10-12 09:02:23	INFO 	TextAppender	()	
+********************************************************************************
+Churchill Job Manager
+08:57:23:079 -> 09:02:23:094
+ runningJobCount.......... 0
+ runningJobletCount....... 0
+ activeWrapperThreads..... 1
+ maximumJobCount.......... 30
+ serverActivityLevel...... 0.000
+ runningJobNames.......... No running jobs
+ runningJobletNames....... No running joblets
+********************************************************************************
+2010-10-12 09:03:22	INFO 	JobLauncher	()	RAM UPDATE: 	free Memory: 842002544	total Memory: 1056309248
+2010-10-12 15:02:37	INFO 	TransactionTimeoutOverride	()	Unable to find file: ..\..\fsc\bin\transactiontimeouts.properties
+2010-10-12 15:02:38	INFO 	Embedded	()	Catalina naming disabled
+2010-10-12 15:02:38	WARN 	Connector	()	Property debug not found on the protocol handler.
+2010-10-12 15:02:38	WARN 	Digester	()	  No rules found matching 'Server/Service/Engine/Host/Logger'.
+2010-10-12 15:02:38	INFO 	AprLifecycleListener	()	The Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: ../lib
+2010-10-12 15:02:39	INFO 	Http11NioProtocol	()	Initializing Coyote HTTP/1.1 on http-0.0.0.0-80
+2010-10-12 15:02:39	INFO 	Http11NioProtocol	()	Initializing Coyote HTTP/1.1 on http-0.0.0.0-443
+2010-10-12 15:02:39	INFO 	AjpProtocol	()	Initializing Coyote AJP/1.3 on ajp-0.0.0.0-8009
+2010-10-12 15:02:39	INFO 	Catalina	()	Initialization processed in 1273 ms
+2010-10-12 15:02:39	INFO 	StandardService	()	Starting service jboss.web
+2010-10-12 15:02:39	INFO 	StandardEngine	()	Starting Servlet Engine: JBossWeb/2.0.1.GA
+2010-10-12 15:02:39	INFO 	Catalina	()	Server startup in 93 ms
+2010-10-12 15:02:49	ERROR	STDERR	()	SLF4J: Class path contains multiple SLF4J bindings.
+2010-10-12 15:02:49	ERROR	STDERR	()	SLF4J: Found binding in [jar:file:/D:/deploy/FSC-Destiny/jboss/server/destiny/deploy/destiny.ear/lib/slf4j-log4j12.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+2010-10-12 15:02:49	ERROR	STDERR	()	SLF4J: Found binding in [jar:file:/D:/deploy/FSC-Destiny/jboss/server/destiny/deploy/destiny.ear/lib/slf4j-simple.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+2010-10-12 15:02:49	ERROR	STDERR	()	SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+2010-10-12 15:03:14	INFO 	ThreadTracer	()	ThreadTracer category='DestinyLogger' found.  To enable add system property 'ThreadTracer.DestinyLogger=ON'
+2010-10-12 15:03:20	WARN 	SessionFactoryObjectFactory	()	InitialContext did not implement EventContext
+2010-10-12 15:03:33	INFO 	ActionServlet	()	Loading chain catalog from jar:file:/D:/deploy/FSC-Destiny/jboss/server/destiny/lib/struts-core.jar!/org/apache/struts/chain/chain-config.xml
+2010-10-12 15:03:43	INFO 	deployer	()	Configuring EJB3 method synchronization from file 'D:\deploy\FSC-Destiny\fsc\bin\ejb3-synchronizations.xml'
+2010-10-12 15:03:43	INFO 	deployer	()	struts-menu initialization successfull
+2010-10-12 15:03:43	INFO 	deployer	()	Setting SQL Server memory.
+2010-10-12 15:03:43	INFO 	deployer	()	SQL Server min memory set to 1024
+2010-10-12 15:03:43	INFO 	deployer	()	SQL Server max memory set to 1024
+2010-10-12 15:03:43	INFO 	deployer	()	Configuring Jasper Reports
+2010-10-12 15:03:44	INFO 	JobConcurrency	()	Starting buildJobMatrix for context = destiny
+2010-10-12 15:03:46	INFO 	JobConcurrency	()	Ending buildJobMatrix for context = destiny
+2010-10-12 15:03:46	INFO 	JobConcurrency	()	Starting buildJobMatrix for context = destiny
+2010-10-12 15:03:47	INFO 	JobConcurrency	()	Ending buildJobMatrix for context = destiny
+2010-10-12 15:03:47	INFO 	deployer	()	Registering Destiny Services
+2010-10-12 15:03:47	INFO 	DestinyServicesBean	()	Registering Destiny Services
+2010-10-12 15:03:47	INFO 	DestinyServicesBean	()	Removing leftover JasperReports cache files...
+2010-10-12 15:03:47	INFO 	ChurchillService	()	Starting Churchill Job Manager
+2010-10-12 15:03:47	INFO 	JobLauncherBase	()	Job Launcher Started
+2010-10-12 15:03:47	INFO 	ChurchillService	()	Churchill Job Manager started
+2010-10-12 15:03:47	INFO 	JobMonitor	()	Starting JobMonitor(Context: com.follett.fsc.common.consortium.DistrictContext - Context=destiny)...
+2010-10-12 15:03:48	INFO 	LuceneWrapper	()	Lucene.MaxCrissCrossSearchSize=2147483647
+2010-10-12 15:03:48	INFO 	LuceneWrapper	()	Lucene.MaxCrissCrossDurationMillis=5000
+2010-10-12 15:03:48	INFO 	LuceneWrapper	()	MAX_LUCENE_BOOLEAN_CLAUSE_COUNT=5000
+2010-10-12 15:03:48	INFO 	LuceneWrapper	()	LuceneWrapper.minimumFuzzyTermsForShortCut=10
+2010-10-12 15:03:48	INFO 	LuceneWrapper	()	LuceneWrapper.minimumLevenshteinForFuzzyShortCut=0.8
+2010-10-12 15:03:48	INFO 	LuceneWrapper	()	MAX_LUCENE_SEARCH_THREADS=25
+2010-10-12 15:03:48	INFO 	LuceneWrapper	()	PARAM_LUCENE_CACHED_BLOCKING_WAIT_MILLIS=120000
+2010-10-12 15:03:48	INFO 	LuceneWrapper	()	MAX_LUCENE_CACHED_QUERIES=50
+2010-10-12 15:03:48	INFO 	LuceneWrapper	()	LUCENE_CACHED_ELAPSED_MILLIS=30000
+2010-10-12 15:03:48	INFO 	LuceneWrapper	()	MAX_LUCENE_QUEUED_THREADS=-1
+2010-10-12 15:03:48	INFO 	LuceneWrapper	()	MAX_LUCENE_QUEUED_THREAD_WAIT_MILLIS=30000
+2010-10-12 15:03:48	INFO 	LuceneWrapper	()	Lucene ThreadGovernor installed in lucene MaxLuceneSearchThreads=25 MaxLuceneQueuedThreads=-1
+2010-10-12 15:03:48	INFO 	LuceneWrapper	()	Lucene Caching initiated with MaxLuceneCachedQueries=50, LuceneCachedElapsedMillis=30000
+2010-10-12 15:03:48	INFO 	LuceneWrapper	()	Deleting any Lucene Lock files in Temp dir: C:\DOCUME~1\pwong\LOCALS~1\Temp\
+2010-10-12 15:03:48	INFO 	LuceneWrapper	()	Starting lucene context for destiny. Index optimization is OFF.
+2010-10-12 15:03:48	INFO 	LuceneWrapper	()	PROPERTY_RAM_UPDATE_INTERVAL_MILLIS=1200000
+2010-10-12 15:03:48	INFO 	LuceneWrapper	()	LuceneWrapper.hitRunner.MinThreads=10
+2010-10-12 15:03:48	INFO 	LuceneWrapper	()	LuceneWrapper.hitRunner.MaxThreads=10
+2010-10-12 15:03:48	INFO 	LuceneWrapper	()	Starting hitRunner - MinThreads: 10 MaxThreads: 10
+2010-10-12 15:03:48	INFO 	LuceneWrapper	()	LuceneWrapper.alternateTermsRunner.MinThreads=1
+2010-10-12 15:03:48	INFO 	LuceneWrapper	()	LuceneWrapper.alternateTermsRunner.MaxThreads=5
+2010-10-12 15:03:48	INFO 	LuceneWrapper	()	LuceneWrapper.alternateTermsRunner.QueueSize=1
+2010-10-12 15:03:48	INFO 	LuceneWrapper	()	Starting alternateTermsRunner - MinThreads: 1 MaxThreads: 5 QueueSize: 1
+2010-10-12 15:03:48	INFO 	DestinyServicesBean	()	Registering Service Z3950Service
+2010-10-12 15:03:48	INFO 	DestinyServicesBean	()	Starting Service Z3950Service
+2010-10-12 15:03:48	INFO 	Z3950Service	()	Starting Z-Client service...
+2010-10-12 15:03:48	INFO 	Z3950Service	()	Starting Z-Server service...
