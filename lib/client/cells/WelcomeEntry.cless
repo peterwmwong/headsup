@@ -1,0 +1,15 @@
+@import 'global-vars.less';
+@import 'global-mixins.less';
+
+.WelcomeEntry {
+   clear: both;
+   font-family: monospace;
+   font-size: 28px;
+   div.welcome{
+      display: inline-block;
+      overflow: hidden;
+      color: #37A651;
+      font-weight: bold;
+      padding-left: 20px;
+   }
+}
